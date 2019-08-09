@@ -31,3 +31,46 @@
     transform: rotate(360deg);
   }
 }
+
+.container-drag {
+  text-align: center;
+}
+
+.wip {
+  position: absolute;
+  width: 150px;
+  height: 100vh;
+  left: 0;
+  tor: 10;
+  background-color: antiquewhite;
+}
+
+.header {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  width: 100%;
+}
+
+.task-header {
+  display: inline-block;
+  background-color: skyblue;
+  width: 100%;
+}
+
+.droppable {
+  position: absolute;
+  width: 150px;
+  height: 100vh;
+  right: 0;
+  background-color: aquamarine;
+  border-left: 1px dotted;
+}
+
+.draggable {
+  height: 100px;
+  background-color: yellow;
+  margin: 5px auto;
+  line-height: 5em;
+}
